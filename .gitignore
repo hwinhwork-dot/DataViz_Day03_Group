@@ -22,11 +22,10 @@ env/
 !.env.example
 
 # ---------- Dữ liệu ----------
-# File GoMart tải từ LMS và hình 6 biểu đồ cũ chỉ để trên máy, không commit
-# (đề yêu cầu không nộp file GoMart).
-data/raw/*
-!data/raw/.gitkeep
-data/bad_charts/
+# Dữ liệu GoMart (data/raw/) và hình 6 biểu đồ cũ (data/bad_charts/) được commit để cả nhóm dùng chung.
+# Bỏ comment các dòng dưới nếu file dữ liệu quá lớn (> 50MB).
+# data/raw/*
+# !data/raw/.gitkeep
 *.parquet.tmp
 *.sqlite-journal
 

@@ -78,7 +78,7 @@ We do not hand in the GoMart files.
 
 The five GoMart files are `gomart_orders_2025_clean.csv`, `gomart_districts.csv`, `gomart_targets_2025.csv`, `gomart_bad_report.pdf` and `gomart_bad_report.py`. The Setup cell of the starter reads the CSV files from the folder of the notebook, so inside the repository it has to point to `data/raw/`.
 
-We do not commit `data/raw/` or `data/bad_charts/`. Each member downloads `data.zip` from the LMS and copies the five files in `data/group_homework/` into `data/raw/`. The same six charts are in `gomart_bad_report.pdf`.
+We keep `data/raw/` and `data/bad_charts/` in the repository so that every member works with the same files. They are not part of the hand-in, so we do not upload them to the LMS.
 
 ## Setup
 
