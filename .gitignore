@@ -22,10 +22,11 @@ env/
 !.env.example
 
 # ---------- Dữ liệu ----------
-# Mặc định dữ liệu nhỏ của bài lab vẫn được commit.
-# Bỏ comment các dòng dưới nếu file dữ liệu quá lớn (> 50MB).
-# data/raw/*
-# !data/raw/.gitkeep
+# File GoMart tải từ LMS và hình 6 biểu đồ cũ chỉ để trên máy, không commit
+# (đề yêu cầu không nộp file GoMart).
+data/raw/*
+!data/raw/.gitkeep
+data/bad_charts/
 *.parquet.tmp
 *.sqlite-journal
 

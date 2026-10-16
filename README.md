@@ -71,11 +71,14 @@ We do not hand in the GoMart files.
 ├── homework/
 │   └── gh3_gomart/   the hand-in set: the notebook, experiment_answers.csv and evidence/
 ├── data/
-│   └── raw/          the five GoMart files from the LMS, which we never edit
+│   ├── raw/          the five GoMart files from the LMS, which we never edit
+│   └── bad_charts/   the six charts of the intern report as PNG files, for the audit
 └── requirements.txt  The Python packages that we use
 ```
 
 The five GoMart files are `gomart_orders_2025_clean.csv`, `gomart_districts.csv`, `gomart_targets_2025.csv`, `gomart_bad_report.pdf` and `gomart_bad_report.py`. The Setup cell of the starter reads the CSV files from the folder of the notebook, so inside the repository it has to point to `data/raw/`.
+
+We do not commit `data/raw/` or `data/bad_charts/`. Each member downloads `data.zip` from the LMS and copies the five files in `data/group_homework/` into `data/raw/`. The same six charts are in `gomart_bad_report.pdf`.
 
 ## Setup
 
