@@ -22,7 +22,7 @@ env/
 !.env.example
 
 # ---------- Dữ liệu ----------
-# Mặc định dữ liệu nhỏ của bài lab vẫn được commit.
+# Dữ liệu GoMart (data/raw/) và hình 6 biểu đồ cũ (data/bad_charts/) được commit để cả nhóm dùng chung.
 # Bỏ comment các dòng dưới nếu file dữ liệu quá lớn (> 50MB).
 # data/raw/*
 # !data/raw/.gitkeep
