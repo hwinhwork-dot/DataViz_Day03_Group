@@ -61,6 +61,7 @@ Last, open GitHub, go to Pull requests, and choose New pull request. Set the bas
 | `homework/gh3_gomart/GH3_TeamName.ipynb` | Tasks 0 to 6, with the memo at the top. It starts from `homework03_starter.ipynb`. |
 | `homework/gh3_gomart/experiment_answers.csv` | Task 4: one row per estimate, with the columns `respondent, encoding, item, true, judged, collector`. |
 | `homework/gh3_gomart/evidence/` | Task 4: photos of the paper sheets or the form export with time stamps. Task 0: the photo of the hand sketch. |
+| `homework/gh3_gomart/charts/` | Task 2: the six redesigned charts as PNG files, so that the lecturer can check them without running the notebook. The last cell of Task 2 saves them. |
 
 We do not hand in the GoMart files.
 
@@ -69,7 +70,7 @@ We do not hand in the GoMart files.
 ```
 .
 ├── homework/
-│   └── gh3_gomart/   the hand-in set: the notebook, experiment_answers.csv and evidence/
+│   └── gh3_gomart/   the hand-in set: the notebook, experiment_answers.csv, evidence/ and charts/
 ├── data/
 │   ├── raw/          the five GoMart files from the LMS, which we never edit
 │   └── bad_charts/   the six charts of the intern report as PNG files, for the audit
