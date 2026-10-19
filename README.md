@@ -2,7 +2,7 @@
 
 My group keeps its work for Group Homework 3 of the Data Visualization course in this repository. In this homework, my group audits the six charts of the GoMart Operations Report 2025, redesigns them, tests the redesigns for every reader, and runs a perception experiment with real people. GoMart is a made-up online grocery service, and all of its data is simulated.
 
-Team name: Team 10, after the team number on the LMS list. The file for the hand-in is saved as `GH3_Team10.ipynb`.
+Team name: Team 10, after the team number on the LMS list. The notebook for the hand-in is `GH3_Team10.ipynb`.
 
 ## Members and branches
 
@@ -58,7 +58,7 @@ Last, open GitHub, go to Pull requests, and choose New pull request. Set the bas
 
 | File | Task |
 |---|---|
-| `homework/gh3_gomart/GH3_TeamName.ipynb` | Tasks 0 to 6, with the memo at the top. It starts from `homework03_starter.ipynb`. |
+| `homework/gh3_gomart/GH3_Team10.ipynb` | Tasks 0 to 6, with the memo at the top. It starts from `homework03_starter.ipynb`. |
 | `homework/gh3_gomart/experiment_answers.csv` | Task 4: one row per estimate, with the columns `respondent, encoding, item, true, judged, collector`. It holds 19 respondents: the collected ones and the simulated ones (see below). |
 | `homework/gh3_gomart/evidence/` | Task 4: photos of the paper sheets or the form export with time stamps. Task 0: the photo of the hand sketch. |
 | `homework/gh3_gomart/charts/` | Task 2: the six redesigned charts as PNG files, so that the lecturer can check them without running the notebook. Task 0: the original Figure 5 of the NSO report and my group's redesign. The last cell of Task 2 saves all of them except the original screenshot. Task 5: `task5_one_page.png`, which the cell of Task 5 saves. |
